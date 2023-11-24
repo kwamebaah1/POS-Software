@@ -1,0 +1,35 @@
+.profitdiv{
+    background: hsl(220, 10%, 94%);
+    text-align: center;
+}
+.topbuttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2%;
+    margin-bottom: 2%;
+}
+
+.p1{
+    font-size: 1.3rem;
+    color: #104b53;
+    margin-left: 6%;
+}
+.p2{
+    font-size: 1.3rem;
+    margin-right: 3%;
+    color: #e95226;
+}
+.p3{
+    font-size: 1.3rem;
+    color: #104b53;
+    margin-right: 3%;
+}
+.hprofit{
+    margin-top: 2%;
+    margin-bottom: 1%;
+    color: #002;
+    font-weight: 500;
+}
+
+  

@@ -1,0 +1,89 @@
+.addproductsform{
+    width: 60%;
+    border: 5px solid transparent;
+    padding: 32px 24px;
+    font-size: 15px;
+    font-family: inherit;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    box-sizing: border-box;
+    border-radius: 13px;
+    top: 5rem;
+    left: 45rem;
+    background: linear-gradient(#080713, #110d39) padding-box,
+    linear-gradient(145deg, transparent 0%, #e81cff, #40c9ff) border-box;
+    color: white;
+    margin-left: 20%;
+    height: 550px;
+    margin-top: 40px;
+}
+.formp{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.apdiv{
+    text-align: center;
+}
+.flex1{
+    display: flex;
+    width: 100%;
+    gap:6px;
+    justify-content: space-between;
+}
+.label1{
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 7px;
+    border: 2px solid transparent;
+    width: 43%;
+}
+.label1 .input{
+    width: 100%;    
+    padding: 10px 10px 20px 10px;
+    outline: 0;
+    border: 1px solid rgba(255, 249, 249, 0.397);
+    background-color: transparent;
+    border-radius: 5px;
+    color: white;
+}
+
+.submit{
+    width: 40%;
+    margin-left: 30%;
+    height: 33px;
+    margin-top: 20px;
+    border-radius: 8px;
+
+    &:hover{
+        background: #40c9ff;
+    }
+}
+.backbtn1{
+    height: 40px;
+    width: 10%;
+    margin-top: 10px;
+    border-radius: 9px;
+    cursor: pointer;
+
+    &:hover{
+        background: rgb(233, 54, 54);
+        transition: .3s;
+    }
+}
+.homebtn{
+    height: 40px;
+    width: 10%;
+    margin-top: 10px;
+    border-radius: 9px;
+    margin-left: 20%;
+    background:#e8e1d1;
+    cursor: pointer;
+
+    &:hover{
+        background: lightgreen;
+        transition: .3s;
+    }
+}
+

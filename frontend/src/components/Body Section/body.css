@@ -1,0 +1,21 @@
+.mainContent{
+    width: 82%;
+    height: 100%;
+    padding: 2rem;
+    overflow: auto;
+}
+
+.bottom{
+    margin-top: 2rem;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+.bot{
+    margin-top: 2.4rem;
+    background: hsl(240, 1%, 48%);
+    border-radius: 2px;
+    text-align: center;
+    height:6%;
+    font-size: 14px;
+}

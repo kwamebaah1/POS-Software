@@ -1,0 +1,181 @@
+.button{
+    gap: 2.5rem;
+
+    .btn{
+        box-shadow: none;
+        color: #fff;
+        border-radius: 2px solid transparent;
+        background: #002;
+        height: 100px;
+        width: 250px;
+        font-size: 22px;
+        margin-left: 18px;
+    
+        &:hover{
+            color: var(--PrimaryColor);
+            background: var(--paleGreen);
+            transition: .8s;
+        }
+    }
+    .salesbtn{
+        box-shadow: none;
+        color: #fff;
+        border-radius: 2px solid transparent;
+        background: #104B53;
+        height: 100px;
+        width: 250px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        border-radius: 7px;
+        box-shadow: 0 2px 4px var(--inputColor);
+        font-size: 22px;
+
+        &:hover{
+            color: var(--PrimaryColor);
+            background: #C9D8DD;
+            transition: .8s;
+        }
+    }
+    .productbtn{
+        box-shadow: none;
+        color: #fff;
+        border-radius: 2px solid transparent;
+        background: #6D8D97;
+        height: 100px;
+        width: 250px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        border-radius: 7px;
+        box-shadow: 0 2px 4px var(--inputColor);
+        font-size: 22px;
+
+        &:hover{
+            color: var(--PrimaryColor);
+            background: var(--paleGreen);
+            transition: .8s;
+        }
+    }
+    .supplybtn{
+        box-shadow: none;
+        color: #fff;
+        border-radius: 2px solid transparent;
+        background: #3B5A64;
+        height: 100px;
+        width: 250px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        border-radius: 7px;
+        box-shadow: 0 2px 4px var(--inputColor);
+        font-size: 22px;
+
+        &:hover{
+            color: var(--PrimaryColor);
+            background: #C9D8DD;
+            transition: .8s;
+        }
+    }
+}
+
+.h1h1{
+    font-size: var(--h1FontSize);
+    font-weight: 400;
+    color: var(--blackColor);
+}
+
+.row{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    
+}
+.h3h3{
+    text-align: center;
+    font-weight: 600;
+}
+.imglist{
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.column{
+    position: relative;
+    overflow: hidden;
+    flex-basis: 32%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.iim{
+    width: 100%;
+    height: 100%;
+}
+
+.layer{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.h3h3{
+    position: absolute;
+    width: 100%;
+    font-weight: 400;
+    font-size: var(--h3FontSize);
+    color: #fff;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#machu .layer:hover{
+    background: rgba(117, 173, 16, 0.6);
+}
+
+#park .layer:hover{
+    background: rgba(90, 226, 181, 0.6);
+}
+
+#rialto .layer:hover{
+    background: rgba(103, 144, 163, 0.6);
+}
+
+#drugg .layer:hover{
+    background: #88C5B6;
+}
+
+
+.layer:hover  .h3h3{
+    bottom: 45%;
+    opacity: 1;
+}
+
+
+:root{
+    --PrimaryColor: hsl(94, 59%, 35%);
+    --HoverColor: #bdf094;
+    --paleGreen: hsl(96, 75%, 89%);
+    --whiteColor: hsl(0, 0%, 100%);
+    --blackColor: hsl(0, 0%, 18%);
+    --textColor: hsl(240, 1%, 48%);
+    --bgColor: hsl(220, 10%, 94%);
+    --greyText: rgb(190, 190, 190);
+    --inputColor: hsl(330, 12%, 97%);
+  
+    --biggestFontSize: 2.5rem;
+    --h1FontSize: 1.5rem;
+    --h2FontSize: 1.25rem;
+    --h3FontSize: 1rem;
+    --normalFontSize: .938rem;
+    --smallFontSize: .813rem;
+    --smallestFontSize: .75rem;
+  }

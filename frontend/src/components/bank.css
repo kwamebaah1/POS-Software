@@ -1,0 +1,31 @@
+.addbutton{
+    height: 39px;
+    width: 105px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 83px;
+
+    &:hover{
+        background: lightblue;
+    }
+}
+.backbutton{
+    margin-left: 83px;
+    height: 39px;
+    width: 80px;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover{
+        background: red;
+    }
+}
+.topbutton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2%;
+  }
+.bankh3{
+    color: #005;
+}

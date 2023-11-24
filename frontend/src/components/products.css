@@ -1,0 +1,72 @@
+table{
+    width: 90%;
+    margin: 30px auto;
+    text-align: center;
+    color: #242424;
+}
+table th{
+    padding: 10px;
+    background-color: #e0e2e4;
+    color: #9c6867;
+    font-size: 20px;
+}
+table td{
+    padding: 10px;
+    font-size: 18px;
+}
+tr{
+    width: 100%;
+    background: #fafafa;
+}
+tr:nth-child(even){
+    background-color: #eeeeee;
+}
+tbody tr:hover{
+    background-color: #d99b5e;
+    color: #001;
+}
+.productsh1{
+    text-align: center;
+    margin-top: 15px;
+}
+.updatebtn{
+    background: lightskyblue;
+    width: 68px;
+    height: 30px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.deletebtn{
+    background: lightcoral;
+    width: 68px;
+    height: 30px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.addbtn{
+    margin-left: 75%;
+    height: 39px;
+    width: 105px;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover{
+        background: lightblue;
+    }
+}
+.backbtn{
+    margin-left: 83px;
+    height: 39px;
+    width: 80px;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover{
+        background: red;
+    }
+}
+.graph{
+    height: 500px;
+    margin-bottom: 4%;
+    margin-left: 10%;
+}
